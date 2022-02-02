@@ -1,4 +1,4 @@
-# CREATE A VPC
+# CREATE A VPC with autoscaling
 
 resource "aws_vpc" "PROJECT9-VPC" {
   cidr_block       = var.cidr_block[0]
