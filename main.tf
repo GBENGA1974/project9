@@ -94,7 +94,7 @@ resource "aws_internet_gateway" "PROJECT9-igw" {
   vpc_id = aws_vpc.PROJECT9-VPC.id
 
   tags = {
-    Name = "PROJECT9-igw"
+    Name = "PROJECT9-igw-outer"
   }
 }
 
