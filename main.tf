@@ -8,7 +8,7 @@ resource "aws_vpc" "PROJECT9-VPC" {
 
 
   tags = {
-    Name = "PROJECT9-vpc"
+    Name = "PROJECT9-VPC"
   }
 }
 
